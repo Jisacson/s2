@@ -1,0 +1,15 @@
+import sun.tools.java.SyntaxError;
+
+import java.io.IOException;
+
+/**
+ * Created by Jonas on 17/11/15.
+ */
+public class Main {
+
+    public Main(){}
+
+    public static void main(String[] args) throws IOException, SyntaxError {
+        LexAnalyzer lex = new LexAnalyzer(System.in);
+    }
+}
